@@ -3,7 +3,7 @@ import VueI18n from 'vue-i18n';
 import store from '../store';
 import en from './en';
 import es from './es';
-
+import cn from './cn';
 Vue.use(VueI18n);
 
 export default new VueI18n({
@@ -11,6 +11,7 @@ export default new VueI18n({
   fallbackLocale: 'en',
   messages: {
     en,
-    es
+    es,
+    cn
   }
 })
